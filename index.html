@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="spalsh">
+        <h1 class="splash-heading">Organic Food</h1>
+        <img src="img/logo1.jpg" alt="" class="logo">
+    </div>
+    
+    <div class="content">
+
+        <header class="app-header">
+            <div class="container">
+                <img src="img/logo1.jpg" alt="" class="container__logo">
+            </div>
+        </header>
+
+        <div class="subheader">
+            <div class="">
+                <p>Grocery for Organic Food, Fresh Produce.</p>
+                <p>Free Delivery.</p>
+            </div>  
+        </div>
+
+        <div class="grid container">
+            <div class="item">
+                <h4 class="item__heading">Organic soup.</h4>
+                <svg class="item__img item__img--1">
+                    <use xlink:href="img/sprite.svg#icon-bowl"></use>
+                </svg>
+            </div>
+            <div class="item">
+                <h4 class="item__heading">Organic cake.</h4 class="item__heading">
+                    <svg class="item__img item__img--2">
+                        <use xlink:href="img/sprite.svg#icon-cake"></use>
+                    </svg>
+            </div>
+            <div class="item">
+                <h4 class="item__heading">Healthy Drinks</h4 class="item__heading">
+                    <svg class="item__img item__img--3">
+                        <use xlink:href="img/sprite.svg#icon-drink"></use>
+                    </svg>
+            </div>
+            <div class="item">
+                <h4 class="item__heading">We are first!</h4 class="item__heading">
+                    <svg class="item__img item__img--4">
+                        <use xlink:href="img/sprite.svg#icon-medal"></use>
+                    </svg>
+            </div>
+            <div class="item">
+                <h4 class="item__heading">Water</h4 class="item__heading">
+                    <svg class="item__img item__img--5">
+                        <use xlink:href="img/sprite.svg#icon-bucket"></use>
+                    </svg>
+            </div>
+            <div class="item">
+                <h4 class="item__heading">Our Grocery</h4 class="item__heading">
+                    <svg class="item__img item__img--6">
+                        <use xlink:href="img/sprite.svg#icon-address"></use>
+                    </svg>
+            </div>
+        </div>
+        
+    </div>
+    
+    <footer class="app-footer">
+        <ul class="app-footer__lists">
+            <li class="app-footer__list">
+                
+                <svg class="footer__img">
+                    <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+            </li>
+            <li class="app-footer__list">
+                <svg class="footer__img">
+                    <use xlink:href="img/sprite.svg#icon-star"></use>
+                </svg>
+            </li>
+            <li class="app-footer__list">
+                <svg class="footer__img">
+                    <use xlink:href="img/sprite.svg#icon-direction"></use>
+                </svg>
+            </li>
+            <li class="app-footer__list">
+                <svg class="footer__img">
+                    <use xlink:href="img/sprite.svg#icon-hour-glass"></use>
+                </svg>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script>
+        setTimeout(() => {
+            document.getElementById('spalsh').classList.toggle('fade')
+        }, 2000);
+    
+    </script>
+</body>
+</html>
